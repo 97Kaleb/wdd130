@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 #content {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0;
+    font-size: 22px;
 }
 nav a{
     text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     background-color: #89816C;
     color: #E8ECED;
     text-decoration: none;
+    font-family: "EB Garamond", 'Trebuchet MS', 'Arial';
 }
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1{
     text-align: center;
     color: #4C5760;
+    font-family: "DM Serif Display", 'Times New Roman', 'Courier New';
+}
+#hero-msg h4{
+    text-align: center;
+    color: #4C5760;
+    font-family: "EB Garamond", 'Trebuchet MS', 'Arial';
 }
 .button-box{
     text-align: center;
@@ -19,6 +33,7 @@ nav a{
 main section{
     text-align: center;
     color: #4C5760;
+    font-family: "EB Garamond", 'Trebuchet MS', 'Arial';
 }
 #background {
     height: 725px;
@@ -26,6 +41,11 @@ main section{
 }
 body{
     background-color: #DCD5BC;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #E8ECED;
@@ -39,6 +59,12 @@ nav a:hover{
     background-color: #89816C;
     color: #E8ECED;
     text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: "DM Serif Display", 'Times New Roman', 'Courier New';
 }
 .book:hover, .join:hover{
     background-color: #4C5760;
@@ -47,6 +73,7 @@ nav a:hover{
 }
 .msg{
     background-color: #DCD5BC;
+    line-height: 1.5em;
 }
 footer{
     background-color: #E8ECED;
@@ -57,6 +84,7 @@ footer{
 .logo{
     width: 80px;
     height: 80px;
+    margin-bottom: 20px;
 }
 #hero-img{
     width: 100%;
@@ -69,4 +97,28 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.msg h2{
+    font-family: "DM Serif Display", 'Times New Roman', 'Courier New';
+}
+.home-grid h2{
+    font-family: "DM Serif Display", 'Times New Roman', 'Courier New';
+}
+.home-title {
+    font-size: 2em;
+}
+.msg p{
+    font-size: .8em;
+}
+footer .social img{
+    padding: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #89816C;
+}
+main section img {
+    box-sizing: border-box;
 }
