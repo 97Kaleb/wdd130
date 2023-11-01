@@ -124,30 +124,97 @@
         Content
       </h2>
       <h3>Home page</h3>
-      <p>
-        [Written copy for the home page here]
-      </p>
+      <h2>
+        Content By Creator
+      </h2>
+      <a href="ttrpg-archive/Kaleb.html">Kaleb</a>
+      <h2>
+        All Content
+      </h2>
+      <button class="accordion">All Content</button>
+      <div class="panel">
+        <div id="panel-content">
+          <a href="ttrpg-archive/All/classes.html">New Classes and Subclasses</a>
+          <a href="ttrpg-archive/All/races.html">New Races and Subraces</a>
+          <a href="ttrpg-archive/All/abilities.html">New Spells and Abilities</a>
+          <a href="ttrpg-archive/All/items.html">Items and Equipment</a>
+          <a href="ttrpg-archive/All/more.html">Extra Mechanics and Systems</a>
+          <a href="ttrpg-archive/All/world.html">Settings</a> 
+        </div>
+      </div>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
       <p>Images for the Home page</p>
-        <img src="#" alt="image for homepage">
-        <img src="#" alt="image for homepage">
+        <img class="subpage-logo" src="images/Class.png" alt="class_logo">
+        <img class="subpage-logo" src="images/Race.png" alt="race_logo">
+        <img class="subpage-logo" src="images/Spells&Abilities.png" alt="abilities_logo">
+        <img class="subpage-logo" src="images/Items&Equipment.png" alt="items_logo">
+        <img class="subpage-logo" src="images/Extra-Mechanics&Systems.png" alt="more_logo">
+        <img class="subpage-logo" src="images/World.png" alt="world_notes_logo">
+      </ul>
+
 
       </ul>
-      <h3>[Page 2]</h3>
+      <h3>Kaleb's Content</h3>
       <p>
-        [Written copy for the Page 2 here]
+        <a href="ttrpg-archive/Kaleb/Jhorim.html">Jhorim</a>
+        <a href="ttrpg-archive/Kaleb/Sovara.html">Sovara</a>
+        <a href="ttrpg-archive/Kaleb/Other.html">Other Settings</a>
       </p>
-      <p>Images for the Page 2</p>
-        <img src="#" alt="image for page">
-        <img src="#" alt="image for page">
+      <p>Images for "Kaleb's Content"</p>
+        <img class="subpage-logo" src="images/Jhorim.png" alt="Jhorim_logo">
+        <img class="subpage-logo" src="images/Sovara.png" alt="Sovara_logo">
+        <img class="subpage-logo" src="images/Other-Worlds.png" alt="Other-Worlds_logo">
 
       </ul>
-      <h3>[Page 3]</h3>
+      <h3>Content for Sovara</h3>
       <p>
-        [Written copy for the Page 3 here]
+        <a href="ttrpg-archive/Kaleb/Sovara/classes.html">New Classes and Subclasses</a>
+        <a href="ttrpg-archive/Kaleb/Sovara/races.html">New Races and Subraces</a>
+        <a href="ttrpg-archive/Kaleb/Sovara/abilities.html">New Spells and Abilities</a>
+        <a href="ttrpg-archive/Kaleb/Sovara/items.html">Items and Equipment</a>
+        <a href="ttrpg-archive/Kaleb/Sovara/more.html">Extra Mechanics and Systems</a>
+        <a href="ttrpg-archive/Kaleb/Sovara/world.html">Jhorim's Lore</a> 
       </p>
-      <p>Images for the Page 3</p>
-        <img src="#" alt="image for page3">
-        <img src="#" alt="image for page3">
+      <p>Images for "Sovara"</p>
+        <img class="subpage-logo" src="images/Class.png" alt="class_logo">
+        <img class="subpage-logo" src="images/Race.png" alt="race_logo">
+        <img class="subpage-logo" src="images/Spells&Abilities.png" alt="abilities_logo">
+        <img class="subpage-logo" src="images/Items&Equipment.png" alt="items_logo">
+        <img class="subpage-logo" src="images/Extra-Mechanics&Systems.png" alt="more_logo">
+        <img class="subpage-logo" src="images/World.png" alt="world_notes_logo">
+
+      </ul>
+      <h3>Content for Jhorim</h3>
+      <p>
+        <a href="ttrpg-archive/Kaleb/Jhorim/classes.html">New Classes and Subclasses</a>
+        <a href="ttrpg-archive/Kaleb/Jhorim/races.html">New Races and Subraces</a>
+        <a href="ttrpg-archive/Kaleb/Jhorim/abilities.html">New Spells and Abilities</a>
+        <a href="ttrpg-archive/Kaleb/Jhorim/items.html">Items and Equipment</a>
+        <a href="ttrpg-archive/Kaleb/Jhorim/more.html">Extra Mechanics and Systems</a>
+        <a href="ttrpg-archive/Kaleb/Jhorim/world.html">Jhorim's Lore</a>       
+      </p>
+      <p>Images for "Jhorim"</p>
+        <img class="subpage-logo" src="images/Class.png" alt="class_logo">
+        <img class="subpage-logo" src="images/Race.png" alt="race_logo">
+        <img class="subpage-logo" src="images/Spells&Abilities.png" alt="abilities_logo">
+        <img class="subpage-logo" src="images/Items&Equipment.png" alt="items_logo">
+        <img class="subpage-logo" src="images/Extra-Mechanics&Systems.png" alt="more_logo">
+        <img class="subpage-logo" src="images/World.png" alt="world_notes_logo">
 
       </ul>
       <hr>
