@@ -205,3 +205,24 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.option-name, .spell-feature, .feature-list, .archetype-feature, .archetype-name, .subrace-name, .Sovara-bonus{
+  text-decoration: underline;
+}
+.class-overview{
+  float: left;
+}
+table, th, td {
+  border: 1px solid #171614;
+}
+table{
+  margin: 25px;
+}
+th, td{
+  padding: 5px;
+}
+p, ul{
+  text-align: left;
+}
+.center-text{
+  text-align: center;
+}
