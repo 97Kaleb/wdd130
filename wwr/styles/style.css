@@ -7,13 +7,15 @@
 }
 nav a{
     text-align: center;
-    padding: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    line-height: 75px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: #89816C;
     color: #E8ECED;
     text-decoration: none;
     font-family: "EB Garamond", 'Trebuchet MS', 'Arial';
+    width: 100%;
+    height: 75px;
 }
 #hero-msg h1{
     text-align: center;
@@ -49,7 +51,7 @@ h2{
 header{
     align-items: start;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 4fr;
 }
 nav a:hover{
     background-color: #4C5760;
@@ -78,6 +80,9 @@ nav a:hover{
 }
 footer{
     background-color: #E8ECED;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 .icon{
     width: 80px;
@@ -87,7 +92,7 @@ footer{
     height: 80px;
     margin-bottom: 20px;
 }
-#hero-img{
+#hero-img, #rivers-hero-img{
     width: 100%;
 }
 footer a{
@@ -117,6 +122,10 @@ footer .social img{
     justify-content: space-around;
     align-items: center;
 }
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .rivers-card, .camping-card, .rapid-card{
     margin: 200px 0;
 }
@@ -134,7 +143,7 @@ main section img {
 }
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 #logo_link {
     padding-top: 5px;
@@ -189,6 +198,45 @@ main {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.river-align{
+    display: grid;
+    grid-template-columns: 1fr 1fr 7fr 1fr 1fr;
+}
+.river-left{
+    text-align: left;
+    grid-row: 1;
+    grid-column: 3/5;
+    margin-left: 5px;
+    color: #4C5760;
+    font-family: "EB Garamond", 'Trebuchet MS', 'Arial';
+}
+.river-right{
+    text-align: right;
+    grid-row: 1;
+    grid-column: 2/4;
+    margin-right: 5px;
+    color: #4C5760;
+    font-family: "EB Garamond", 'Trebuchet MS', 'Arial';
+}
+.river-title{
+    text-align: center;
+    grid-column: 2/3;
+    margin: 10px;
+    color: #4C5760;
+    font-family: "EB Garamond", 'Trebuchet MS', 'Arial';
+}
+.river-left-img{
+    grid-column: 2/3;
+    grid-row: 1;
+    float: left;
+    width: 450px;
+}
+.river-right-img{
+    grid-column: 4/5;
+    grid-row: 1;
+    float: right;
+    width: 450px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
