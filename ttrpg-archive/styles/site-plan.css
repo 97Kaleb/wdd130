@@ -226,3 +226,6 @@ p, ul{
 .center-text{
   text-align: center;
 }
+.wireframe{
+  max-width: 500px;
+}
