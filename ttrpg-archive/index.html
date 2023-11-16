@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>TTRPG Archive: Home</title>
+</head>
+<body>
+    <div id="content">
+        <main>
+            <div id="all-content-accordion">
+                <button class="accordion">All Content</button>
+                    <div class="panel">
+                        <div id="panel-content">
+                            <div>
+                                <a href="ttrpg-archive/All/classes.html">
+                                    <img class="nav_logo" src="images/Class.png">
+                                </a>
+                                <a href="ttrpg-archive/All/classes.html">New Classes and Subclasses</a>
+                            </div>
+                            <div>
+                                <a href="ttrpg-archive/All/races.html">
+                                    <img class="nav_logo" src="images/Race.png">
+                                </a>
+                                <a href="ttrpg-archive/All/races.html">New Races and Subraces</a>
+                            </div>
+                            <div>
+                                <a href="ttrpg-archive/All/abilities.html">
+                                    <img class="nav_logo" src="images/Spells&Abilities.png">
+                                </a>
+                                <a href="ttrpg-archive/All/abilities.html">New Spells and Abilities</a>
+                            </div>
+                            <div>
+                                <a href="ttrpg-archive/All/items.html">
+                                    <img class="nav_logo" src="images/Items&Equipment.png">
+                                </a>
+                                <a href="ttrpg-archive/All/items.html">Items and Equipment</a>
+                            </div>
+                            <div>
+                                <a href="ttrpg-archive/All/more.html">
+                                    <img class="nav_logo" src="images/Extra-Mechanics&Systems.png">
+                                </a>
+                                <a href="ttrpg-archive/All/more.html">Extra Mechanics and Systems</a>
+                            </div>
+                            <div>
+                                <a href="ttrpg-archive/All/world.html">
+                                    <img class="nav_logo" src="images/World.png">
+                                </a>
+                                <a href="ttrpg-archive/All/world.html">Settings</a> 
+                            </div>
+                        </div>
+                    </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                        } else {
+                        panel.style.display = "block";
+                        }
+                    });
+                    }
+                </script>
+            </div>
+            <h3>Content by Creator</h3>
+            <div id="content-by-creator">
+                <a href="Kaleb/content.html">Kaleb's Content</a>
+                <a href="">Others would go here</a>
+            </div>
+        </main>
+        <footer>
+            <h3>Useful Links</h3>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="http://dnd5e.wikidot.com/">5E Wiki</a></p>
+            <p><a href="https://star-wars-rpg-ffg.fandom.com/wiki/Star_Wars_RPG_(FFG)_Wiki">Fantasy Flight's Star Wars RPG Wiki</a></p>
+        </footer>
+    </div>
+</body>
+</html>

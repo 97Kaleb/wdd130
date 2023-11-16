@@ -56,7 +56,10 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: #F9F8F8;
+}
+#all-content-accordion{
+  margin: 15px;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -173,6 +176,13 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.logo{
+  width: 300px;
+  height: 300px;
+}
+.nav_logo{
+  max-width: 150px;
+}
 .subpage-logo{
   max-width: 200px;
 }
@@ -197,13 +207,14 @@ nav a:hover {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: #CDD3CE;
+  background-color: #F9F8F8;
   display: none;
   overflow: hidden;
 }
 #panel-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #F9F8F8;
 }
 .option-name, .spell-feature, .feature-list, .archetype-feature, .archetype-name, .subrace-name, .Sovara-bonus{
   text-decoration: underline;
@@ -228,4 +239,44 @@ p, ul{
 }
 .wireframe{
   max-width: 500px;
+}
+#content-by-creator, #option-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+#content{
+  width: 100%;
+  margin: 0px;
+  background-color: #F9F8F8
+}
+#panel-content div{
+  margin: 5px;
+}
+#panel-content div:hover{
+  background-color: #CDD3CE;
+}
+footer{
+  background-color: #58769E;
+}
+footer h3{
+  color: #F9F8F8;
+}
+footer a{
+  color: #F9F8F8;
+}
+.setting-link{
+  width: 200px;
+  height: 200px;
+}
+#content-selection, #setting-selection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#option-list p{
+  text-align: center;
+}
+#logo-area{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
