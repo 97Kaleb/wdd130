@@ -30,9 +30,9 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4em;
+  max-width: 3840px;
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   text-align: center;
 }
@@ -53,13 +53,14 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  padding: 0;
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: #F9F8F8;
+  display: grid;
 }
 #all-content-accordion{
-  margin: 15px;
+  margin: 75px;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -206,10 +207,13 @@ nav a:hover {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
+  padding: 0px;
   background-color: #F9F8F8;
   display: none;
   overflow: hidden;
+  outline: 1px;
+  outline-style: solid;
+  outline-color: #CDD3CE;
 }
 #panel-content{
   display: grid;
@@ -245,13 +249,13 @@ p, ul{
   grid-template-columns: 1fr 1fr;
   justify-content: center;
 }
+#content-by-creator a{
+  margin: 15px;
+}
 #content{
   width: 100%;
   margin: 0px;
   background-color: #F9F8F8
-}
-#panel-content div{
-  margin: 5px;
 }
 #panel-content div:hover{
   background-color: #CDD3CE;
@@ -279,4 +283,14 @@ footer a{
 #logo-area{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+#logo-box{
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  justify-self: center;
+}
+footer p{
+  margin-bottom: 0;
+  margin-top: 36px;
 }
