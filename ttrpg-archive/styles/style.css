@@ -29,6 +29,10 @@ Fonts are separated by a | */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+a{
+  color:#171614
+}
+
 body {
   max-width: 3840px;
   margin: 0;
